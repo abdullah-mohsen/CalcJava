@@ -1,5 +1,6 @@
 import java.awt.*;
 import javax.swing.*;
+
 public class Calculator extends JFrame {
 		public static JButton add,sub,div,mult,equal , clear;
 		public static JTextField result;
