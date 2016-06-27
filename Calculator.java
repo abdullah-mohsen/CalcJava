@@ -8,7 +8,7 @@ public class Calculator extends JFrame {
 		public Calculator()
 		{
 			super("calculator");
-		JPanel panel = new JPanel();
+	 	JPanel panel = new JPanel();
 		panel.setLayout( new FlowLayout());
 		result=new JTextField("",12);
 		panel.add( result );

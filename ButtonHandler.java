@@ -8,7 +8,7 @@ public class ButtonHandler implements ActionListener
 		char math='a';   //test first n or second n
 		public void actionPerformed( ActionEvent e )
 		{
-			JTextField result = Calculator.result;
+			 JTextField result = Calculator.result;
 			
 			char str= e.getActionCommand().charAt(0);
 			switch(str)
